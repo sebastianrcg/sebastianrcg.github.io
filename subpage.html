@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+ </head>
 <body>
 	<h1>sub-page</h1>
 	<p>I'm hosted with Github Pages.</p>
 	<h2>Level 2 heading</h2>
 </body>
+
+<script>
+	$.Particle.prototype.step = function( i ) {
+		this.speed += this.accel;
+		this.x += Math.cos( this.angle ) * this.speed;
+		this.y += Math.sin ( this.angle ) * this.speed;
+		this.angle += $.PI / 55;
+		this.accel *= 1.01;
+		this.life -= this.decay;
+
+		if ( this.life <= 0 ) {
+			$.particle.splice( i, 1 );
+		}
+	};
+
+</script>
 </html>
