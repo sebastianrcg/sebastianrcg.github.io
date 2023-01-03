@@ -3,26 +3,65 @@
 <head>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <link href="/normalize.css" rel="stylesheet">
- </head>
+</head>
+<style>
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+ 
+
+ @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.load {
+	width: 100px;
+	height: 100px;
+	margin: 110px auto 0;
+	border:solid 10px lightblue;
+	border-radius: 50%;
+	border-right-color: green;
+	border-left-color: green;
+	 -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.0s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    	
+    	 transition: all 0.5s ease-in;
+    animation-name:             rotate; 
+    animation-duration:         2.0s; 
+    animation-iteration-count:  infinite;
+    animation-timing-function: linear; 
+}	
+h3 {
+	text-align: center;
+	margin: 50px 0 0 0;
+	font-size: 100px;
+}
+</style>
 <body>
 	<h1>sub-page</h1>
 	<p>I'm hosted with Github Pages.</p>
 	<h2>Level 2 heading</h2>
+	
+	<div class="load"></div>
+	
+	<h3> Loading </h3>
 </body>
 
 <script>
-	$.Particle.prototype.step = function( i ) {
-		this.speed += this.accel;
-		this.x += Math.cos( this.angle ) * this.speed;
-		this.y += Math.sin ( this.angle ) * this.speed;
-		this.angle += $.PI / 55;
-		this.accel *= 1.01;
-		this.life -= this.decay;
-
-		if ( this.life <= 0 ) {
-			$.particle.splice( i, 1 );
-		}
-	};
+	
 
 </script>
 </html>
