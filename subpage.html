@@ -69,6 +69,8 @@ h3 {
 <br>
 
 <p id=" savedData"> Saved data values</p>
+<p>test </p>
+<button id ="displayvalues" onclick=" display()"> Show Values </button>
 
 </body>
 
@@ -81,6 +83,10 @@ function saveForm() {
 	localStorage.setItem("username", username);
 	localStorage.setItem("email", email);
 	alert("Form data saved to local storage")
+}
+function display() {
+
+	alert("Here are the saved values")
 }
 
 window.onload = function() {
