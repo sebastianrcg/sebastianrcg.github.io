@@ -58,10 +58,26 @@ h3 {
 	<div class="load"></div>
 	
 	<h3> Loading </h3>
+
+<form id="myForm">
+
+<input type="text" id="username">
+<input type="email" id="email">
+<input type="submit" value="submit" onclick=" saveForm()">
+
+</form>
+
 </body>
 
 <script>
 	
-
+function saveForm() {
+	event.preventDefault();
+	var username = document.getElementById("username").value;
+	var email = document.getElementById("email").value;
+	localStorage.setItem("username", username);
+	localStorage.setItem("email", email);
+	alert("Form data saved to local storage")
+}
 </script>
 </html>
