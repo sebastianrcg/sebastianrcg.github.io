@@ -61,11 +61,14 @@ h3 {
 
 <form id="myForm">
 
-<input type="text" id="username">
-<input type="email" id="email">
+<input type="text" placeholder="Username" id="username">
+<input type="email" placeholder="Email" id="email">
 <input type="submit" value="submit" onclick=" saveForm()">
 
 </form>
+<br>
+
+<p id=" savedData"></p>
 
 </body>
 
@@ -78,6 +81,14 @@ function saveForm() {
 	localStorage.setItem("username", username);
 	localStorage.setItem("email", email);
 	alert("Form data saved to local storage")
+}
+
+window.onload = function() {
+	var username = localStorage.getItem("username");
+	var email = localStorage.getItem("email");
+	if (username && email) {
+		document.getElemntById("savedData").innerHTML= "Username: " + username + "<br> Email: " + email;
+	}
 }
 </script>
 </html>
