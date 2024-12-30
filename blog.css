@@ -1,8 +1,8 @@
 header {
     text-align: center;
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.3));
-    background-size: cover;
-    color:white ;
+    padding-top: 5px;
+    color:white;
   }
 
 a {
@@ -15,12 +15,6 @@ h1 {
 
 h3 {
     text-align: center;
-  }
-
-img {
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 20px;
   }
 
 ul {
@@ -46,27 +40,6 @@ article {
 
 iframe {
     border: 7px solid black;
-  }
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 36px;
-    padding: 5px;  
-  }
-
-  li {
-      padding: 5px;
-      display: block;
-  }
-
-  body {
-      background: yellow;
-  }
-
-  div {
-      font-size: 50px;
-      color:black;
-  }
 }
 
 .topnav {
