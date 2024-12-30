@@ -1,83 +1,93 @@
 <!DOCTYPE html>
-<head>
-<title>Services</title> <!-- or portfolio -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
-<link href="/services.css" rel="stylesheet" type="text/css">
-</head>
+  <html>
+    <head>
+      <title>Services</title> <!-- or portfolio -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+      <link href="/services.css" rel="stylesheet" type="text/css">
+    </head>
 
-<body>
-  <div class="topnav" id="myTopnav">
-    <a href="https://sebastianrcg.github.io" >Home Page </a>
-    <a href="https://sebastianrcg.github.io/test_site.html">Test Site</a></li>
-    <a href="https://sebastianrcg.github.io/blog.html">Blog</a></li>
-    <a href="https://sebastianrcg.github.io/services.html" class="active">Services Site</a></li>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction">
-    </a>
-  </div>
-<h1>Sebastian Cruz Website</h1>
-<h2>Available Services</h2>
-
-<div class="first">
-  <p>Restaurant Website <span class="price">Contact for Quote</span><br />
-  <small>Website including restaurant information, location, detailed & interactive menu, hours and contact information. </small></p>
-</div>
-
-<div class="second">
-  <p>Custom Website <span class="price">Contact for Quote</span><br />
-  <small>Custom website with multiple subpages, interactive & responsive menu. Animations, dashboards. Personalized design and background tailored to your like.
-  </small></p>
-</div>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <a href="https://sebastianrcg.github.io" >Home Page </a>
+        <a href="https://sebastianrcg.github.io/test_site.html">Test Site</a></li>
+        <a href="https://sebastianrcg.github.io/blog.html">Blog</a></li>
+        <a href="https://sebastianrcg.github.io/services.html" class="active">Services Site</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction"></a>
+      </div>
   
-<div class="third">
-  <p>Custom Blog <span class="price">Contact for Quote</span><br />
-  <small>Blog website with multiple subpages. Integrated ads with revenue generator and traffic counter. Custom design and animations. Forum with comment and discussion sections.</small></p>
-</div>
-
-
-
-
-<h3> Contact Information for Quotes and Pricing </h3>
-
-  <form>
+      <h1>Sebastian Cruz Website</h1>
   
-    <label for="fname">First Name: </label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <br>
-    <label for="lname"> Last Name:</label><br>
-    <input type="text" id="lname" name="lname">
-    <hr>
-    <br>
-    <br>
-    <br>
-    <label for="email"> Contact Email: </label><br>
-    <input type="email" id="email" name="email" >
-    <br>
-    <label for="phone"> Phone Number: </label><br>
-    <input type="tel" id="phone" name="phone" placeholder= "(000) - 000 - 0000">
-    <br>
-    <label for="phone2"> Alternate Phone Number: </label><br>
-    <input type="tel" id="phone2" name="phone2" placeholder="(000) - 000 - 0000">
-    <br>
-    <br>
-    <label for="c_date" > Contact Date: </label><br>
-    <input type="date" id="c_date">
+      <h2>Available Services</h2>
+
+      <div class="first">
+        <p>Restaurant Website <span class="price">Contact for Quote</span><br />
+        <small>Website including restaurant information, location, detailed & interactive menu, hours and contact information. </small></p>
+      </div>
+
+      <div class="second">
+        <p>Custom Website <span class="price">Contact for Quote</span><br />
+        <small>Custom website with multiple subpages, interactive & responsive menu. Animations, dashboards. Personalized design and background tailored to your like.
+        </small></p>
+      </div>
     
-    <input type="submit">
-  </form> 
-<script>
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+      <div class="third">
+        <p>Custom Blog <span class="price">Contact for Quote</span><br />
+        <small>Blog website with multiple subpages. Integrated ads with revenue generator and traffic counter. Custom design and animations. Forum with comment and discussion sections.</small></p>
+      </div>
 
+      <h3> Contact Information for Quotes and Pricing </h3>
 
-</body>
+      <form>
+      
+        <label for="fname">First Name: </label><br>
+        <input type="text" id="fname" name="fname"><br>
+        
+        <br>
+        
+        <label for="lname"> Last Name:</label><br>
+        <input type="text" id="lname" name="lname">
+        
+        <hr>
+        <br>
+        <br>
+        <br>
+        
+        <label for="email"> Contact Email: </label><br>
+        <input type="email" id="email" name="email" >
+        
+        <br>
+        
+        <label for="phone"> Phone Number: </label><br>
+        <input type="tel" id="phone" name="phone" placeholder= "(000) - 000 - 0000">
+        
+        <br>
+        
+        <label for="phone2"> Alternate Phone Number: </label><br>
+        <input type="tel" id="phone2" name="phone2" placeholder="(000) - 000 - 0000">
+        
+        <br>
+        <br>
+        <label for="c_date" > Contact Date: </label><br>
+        <input type="date" id="c_date">
+        <input type="submit">
+      </form> 
+
+      <script>
+        $('div').on('click', function() {
+          $(this).toggleClass('show-description');
+        });
+
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+            }
+          }
+
+      </script>
+      
+  </body>
+</html>

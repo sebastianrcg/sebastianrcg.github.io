@@ -8,7 +8,7 @@
 }
  
 
- @-webkit-keyframes rotate {
+@-webkit-keyframes rotate {
     from {
         -webkit-transform: rotate(0deg);
     }
@@ -25,29 +25,28 @@
 	border-radius: 50%;
 	border-right-color: green;
 	border-left-color: green;
-	 -webkit-transition: all 0.5s ease-in;
-    -webkit-animation-name:             rotate; 
-    -webkit-animation-duration:         1.0s; 
-    -webkit-animation-iteration-count:  infinite;
+	-webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 1.0s; 
+    -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    	
-    	 transition: all 0.5s ease-in;
-    animation-name:             rotate; 
-    animation-duration:         2.0s; 
-    animation-iteration-count:  infinite;
+    transition: all 0.5s ease-in;
+    animation-name: rotate; 
+    animation-duration: 2.0s; 
+    animation-iteration-count: infinite;
     animation-timing-function: linear; 
-}	
+}
+
 h3 {
-	text-align: center;
+    text-align: center;
 	margin: 50px 0 0 0;
 	font-size: 100px;
 }
+
 .topnav {
   margin: 0px 0 0 0;
   overflow: hidden;
   background-color: gray;
-  
-  
 }
 
 .topnav a {

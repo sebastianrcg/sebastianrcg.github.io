@@ -1,109 +1,110 @@
 body {
-    text-align: center;
-    background-image: url("https://i.imgur.com/W7j2Uiw.png"); 
-    
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    font-family: Arial;
-  }
+  text-align: center;
+  background-image: url("https://i.imgur.com/W7j2Uiw.png"); 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial;
+}
   
-  p.wip {
-    height: 50px;
-    width: 300px;
-    background-color: rgb(121, 209, 128);
-    color: black;
-    
-  } 
+p.wip {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(121, 209, 128);
+  color: black; 
+} 
 
-  img {
-    margin: 50px 0px 0px 0px;
-    border: 7px solid gray;
-    border-radius: 20px;
-  }
-  h1 {
-    font-size: 40px;
+img {
+  margin: 50px 0px 0px 0px;
+  border: 7px solid gray;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
   
-  }
-  ul {
-    padding: 10px;
-    background: gray; 
-    
-  }
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    border-style: groove;
-    padding: 10px;
-    background: gray;
-    
-  }
-  a{
-    color: white;
-  }
-  p {
-    font-size: 20px;
-    text-align: left;
-  }
+ul {
+  padding: 10px;
+  background: gray; 
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  border-style: groove;
+  padding: 10px;
+  background: gray;
+}
+
+a{
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+}
   
-  input {
-    border: 0;
-    padding: 10px;
-    font-size: 20px;
-  
-  }
-  input[type="submit"] {
-    background: red;
-    color: white;
-  }
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
+
 .topnav {
-margin: 70px 0 0 0;
-overflow: hidden;
-background-color: gray;
-
+  margin: 70px 0 0 0;
+  overflow: hidden;
+  background-color: gray;
 }
 
 .topnav a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-background-color: #ddd ;
-color: black;
+  background-color: #ddd ;
+  color: black;
 }
 
 .topnav a.active {
-background-color: #04AA6D;
-color: white;
+  background-color: #04AA6D;
+  color: white;
 }
 
 .topnav .icon {
-display: none;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
-.topnav a:not(:first-child) {display: none;}
-.topnav a.icon {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
   float: right;
   display: block;
-}
+  }
 }
 
 @media screen and (max-width: 600px) {
-.topnav.responsive {position: relative;}
-.topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
-}
+
 .topnav.responsive a {
   float: none;
   display: block;
