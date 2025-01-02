@@ -22,7 +22,7 @@ h1 {
     font-family: 'Londrina Shadow', cursive;
     text-align: center;
     font-size: 75px;
-    color: #aaaaaa;
+    color: #574d4d;
     margin: 150px 0 0 0;
 }
 
@@ -119,11 +119,10 @@ small {
     left: 0px;
     width: 1800px;
     height: 60px;
-    padding: 0px 00px 00px 00px;
-    border: 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
     overflow: hidden;
     background-color: gray;
-    border-style: groove;
     z-index: 1;
 }
   
@@ -134,7 +133,7 @@ small {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
   
 .topnav a:hover {
