@@ -36,10 +36,12 @@ article {
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
+    text-align: left;
   }
 
 iframe {
     border: 7px solid black;
+    
 }
 
 .topnav {
