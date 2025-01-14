@@ -12,8 +12,6 @@
         <a href="https://www.sebastianrcg.com">Home Page </a>
         <a href="/test_site.html"class="active">Test Site</a></li>
         <a href="/blog.html">Blog</a></li>
-        <a href="/services.html">Services Site</a></li>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction"></a>
       </div>
 
       <div class="load"></div>
@@ -57,15 +55,6 @@
         var email = localStorage.getItem("email");
         if (username && email) {
           document.getElementById("savedData").innerHTML= "Username: " + username + "<br> Email: " + email;
-        }
-      }
-
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
         }
       }
 
