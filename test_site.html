@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-  <html>
+  <html lang="en">
 
     <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Test Site</title>
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <link href="/test_site.css" rel="stylesheet" type="text/css">
@@ -37,27 +39,7 @@
 
     <script>
         
-      function saveForm() {
-        event.preventDefault();
-        var username = document.getElementById("username").value;
-        var email = document.getElementById("email").value;
-        localStorage.setItem("username", username);
-        localStorage.setItem("email", email);
-        alert("Form data saved to local storage")
-      }
 
-      function display() {
-        alert("Here are the saved values")
-      }
-
-      window.onload = function() {
-        var username = localStorage.getItem("username");
-        var email = localStorage.getItem("email");
-        if (username && email) {
-          document.getElementById("savedData").innerHTML= "Username: " + username + "<br> Email: " + email;
-        }
-      }
-
-      </script>
+    </script>
       
   </html>
