@@ -1,46 +1,48 @@
 @keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to { 
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
- 
+
 
 @-webkit-keyframes rotate {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to { 
-        -webkit-transform: rotate(360deg);
-    }
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 .load {
-	width: 100px;
-	height: 100px;
-	margin: 110px auto 0;
-	border:solid 10px lightblue;
-	border-radius: 50%;
-	border-right-color: green;
-	border-left-color: green;
-	-webkit-transition: all 0.5s ease-in;
-    -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 1.0s; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    transition: all 0.5s ease-in;
-    animation-name: rotate; 
-    animation-duration: 2.0s; 
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+  width: 100px;
+  height: 100px;
+  margin: 110px auto 0;
+  border: solid 10px lightblue;
+  border-radius: 50%;
+  border-right-color: green;
+  border-left-color: green;
+  -webkit-transition: all 0.5s ease-in;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1.0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  transition: all 0.5s ease-in;
+  animation-name: rotate;
+  animation-duration: 2.0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 h3 {
-    text-align: center;
-	margin: 50px 0 0 0;
-	font-size: 100px;
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-size: 100px;
 }
 
 .topnav {
@@ -60,7 +62,7 @@ h3 {
 }
 
 .topnav a:hover {
-  background-color: #ddd ;
+  background-color: #ddd;
   color: black;
 }
 
@@ -74,7 +76,10 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -82,12 +87,16 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
