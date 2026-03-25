@@ -7,7 +7,7 @@
 }
 
 body {
-  width: 100dvw;
+  max-width: 100dvw;
   min-height: 100dvh;
   background-color: #e0e1dd;
 }
@@ -43,6 +43,47 @@ nav ul{
 
 nav li {
   margin: 0 10px;
+}
+
+#about-me{
+  height: 400px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* background-color: #778da9; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about-me h2{
+  font-size: 50px;
+  text-align: center;
+}
+
+#about-me h3{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#about-me p{
+  font-size: 20px;
+}
+
+#photo img{
+  width: 250px;
+  border: 5px solid #1b263b;
+  border-radius: 50%;
+}
+
+#info{
+  width: 60%;
+}
+
+#info img {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 
