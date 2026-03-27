@@ -8,11 +8,13 @@
   <title> Sebastian Cruz</title>
   <link rel="icon" href="/images/programming.png" type="image/png">
   <link href="/index.css" rel="stylesheet" type="text/css">
-<!-- Import Font Nunito -->
+  <!-- Import Font Nunito -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -25,21 +27,22 @@
     </ul>
   </nav>
   <section id="about-me">
-    <div id="info">
+    <div id="info" data-aos="fade-right" data-aos-delay="50" data-aos-duration="3000" data-aos-mirror="true">
 
       <h2>Full-Stack Engineer</h2>
       <h3>Sebastian Cruz</h3>
       <p>Hi, I'm Sebastian, a Full-Stack Engineer located in Santo Domingo, Dominican Republic. </p>
       <br>
-      <p>I’m passionate about building scalable, secure, and user‑friendly applications. 
-        With expertise across modern frontend frameworks and robust backend architectures, I thrive on 
+      <p>I’m passionate about building scalable, secure, and user‑friendly applications.
+        With expertise across modern frontend frameworks and robust backend architectures, I thrive on
         turning complex problems into elegant solutions.</p>
-        <a href="https://www.linkedin.com/in/sebastian-rcruz92/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn logo, click to visit Sebastian Cruz's LinkedIn profile"></a>
+      <a href="https://www.linkedin.com/in/sebastian-rcruz92/" target="_blank"><img src="./images/linkedin.png"
+          alt="LinkedIn logo, click to visit Sebastian Cruz's LinkedIn profile"></a>
     </div>
     <div id="photo">
       <img src="./images/profilePicture.jpeg" alt="My Photo">
     </div>
-      
+
   </section>
 
   <section id="skills">
@@ -108,11 +111,15 @@
   </form>
 
   <footer class="footer"> Hello</footer>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
-<script>
 
-
-</script>
 
 </html>
