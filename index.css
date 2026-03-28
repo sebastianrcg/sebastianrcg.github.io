@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 
@@ -25,7 +25,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1;
-  
+
 }
 
 
@@ -36,7 +36,7 @@ nav img {
   margin-left: 20px;
 }
 
-nav ul{
+nav ul {
   width: 100%;
   height: 100%;
   display: flex;
@@ -44,7 +44,7 @@ nav ul{
   align-items: center;
   margin-right: 30px;
   justify-content: end;
-  
+
 }
 
 nav li {
@@ -56,7 +56,7 @@ nav li a {
   color: #e0e1dd;
 }
 
-#about-me{
+#about-me {
   height: 400px;
   width: 85%;
   margin: 0 auto;
@@ -67,29 +67,28 @@ nav li a {
   justify-content: space-between;
 }
 
-#about-me h2{
+#about-me h2 {
   font-size: 50px;
   text-align: center;
 }
 
-#about-me h3{
+#about-me h3 {
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#about-me p{
+#about-me p {
   font-size: 20px;
 }
 
-#photo img{
+#photo img {
   width: 250px;
-  border: 5px solid 
-#415a77;
+  border: 5px solid #415a77;
   border-radius: 20px;
 }
 
-#info{
+#info {
   width: 60%;
 }
 
@@ -102,14 +101,14 @@ nav li a {
   margin: 0 auto;
   margin-top: 65px;
   width: 80%;
-  background-color:#778da9;
+  background-color: #778da9;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 20px;
 
 }
 
-#skills h3{
+#skills h3 {
   font-size: 50px;
   text-align: center;
 }
@@ -125,16 +124,18 @@ nav li a {
 
 .wrapper {
   display: flex;
-  
+
   animation: animate 32s linear infinite;
 }
+
 @keyframes animate {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-167%);
-  } 
+  }
 }
 
 #projects {
@@ -182,16 +183,16 @@ form label {
   font-size: 20px;
   color: #e0e1dd;
   margin-bottom: 10px;
-  
+
 }
 
-form input{
+form input {
   margin-bottom: 20px;
   height: 40px;
   width: 300px;
   font-size: 18px;
-  
-  
+
+
 
 }
 
@@ -205,7 +206,7 @@ form button {
   font-weight: bold;
 }
 
-button + button {
+button+button {
   margin-left: 20px;
 }
 
@@ -213,6 +214,7 @@ button + button {
 button[type="submit"] {
   background-color: #9EEB04;
 }
+
 button[type="reset"] {
   background-color: #EB8F04;
   /* #E3EB04 */
@@ -223,11 +225,11 @@ h3 {
 }
 
 
-footer{
+footer {
   margin-top: 100px;
   width: 100%;
   height: 60px;
-  background-color:#415a77 ;
+  background-color: #415a77;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,11 +242,6 @@ section {
 }
 
 
-@media screen and (max-width: 600px) {
-  
-  
-}
+@media screen and (max-width: 600px) {}
 
-@media screen and (max-width: 600px) {
-  
-}
+@media screen and (max-width: 600px) {}
