@@ -336,6 +336,7 @@ section {
     from {
       transform: translateX(0);
     }
+
     to {
       transform: translateX(-258%);
     }
@@ -361,11 +362,11 @@ section {
     width: 100%;
   }
 
-  form label{
+  form label {
     font-size: 18px;
   }
 
-  form input{
+  form input {
     height: 35px;
     width: 275px;
   }
@@ -377,5 +378,9 @@ section {
 
   footer {
     font-size: 16px;
+  }
+
+  h3 {
+    color: #0d1b2a;
   }
 }
