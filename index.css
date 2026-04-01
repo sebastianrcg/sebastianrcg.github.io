@@ -367,6 +367,7 @@ section {
 
   form input{
     height: 35px;
+    width: 275px;
   }
 
   form button {
