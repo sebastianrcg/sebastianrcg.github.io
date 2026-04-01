@@ -121,9 +121,11 @@ nav li a {
   margin: 0 auto;
   margin-top: 65px;
   width: 80%;
-  background-color: #778da9;
+  /* background-color: #778da9; */
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: antiquewhite;
+  border: 3px solid #778da9;
   border-radius: 20px;
 
 }
