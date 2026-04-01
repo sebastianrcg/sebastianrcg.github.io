@@ -264,6 +264,19 @@ section {
 }
 
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+  nav {
+    font-size: 18px;
+    height: 50px;
+  }
 
-@media screen and (max-width: 600px) {}
+  nav img {
+    width: 30px;
+    height: 30px;
+  }
+
+  nav ul {
+    margin-right: 10px;
+  }
+}
+
