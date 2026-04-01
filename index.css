@@ -340,4 +340,41 @@ section {
       transform: translateX(-258%);
     }
   }
+
+  #projects h3 {
+    font-size: 30px;
+  }
+
+  #contact {
+    width: 90%;
+  }
+
+  #contact h3 {
+    font-size: 30px;
+  }
+
+  #contact p {
+    font-size: 18px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form label{
+    font-size: 18px;
+  }
+
+  form input{
+    height: 35px;
+  }
+
+  form button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
 }
