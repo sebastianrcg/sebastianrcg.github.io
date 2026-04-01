@@ -57,7 +57,7 @@ nav li a {
 }
 
 #about-me {
-  height: 400px;
+  /* height: 400px; */
   width: 85%;
   margin: 0 auto;
   margin-top: 190px;
@@ -277,6 +277,49 @@ section {
 
   nav ul {
     margin-right: 10px;
+  }
+
+  #about-me {
+    width: 90%;
+    margin-top: 80px;
+    flex-direction: column;
+  }
+
+  #about-me h2 {
+    font-size: 35px;
+  }
+  #about-me h3 {
+    font-size: 30px;
+  }
+
+  #about-me p {
+    font-size: 16px;
+  }
+
+  #photo img {
+    margin-top: 40px;
+    border-radius: 50%;
+    width: 200px;
+  }
+
+  #links {
+    justify-content: center;
+  }
+
+  #resume {
+    font-size: 16px;
+  }
+
+  #info {
+    width: 100%;
+  }
+
+  #skills {
+    width: 90%;
+  }
+
+  #skills h3 {
+    
   }
 }
 
