@@ -6,6 +6,10 @@
   font-family: "Nunito";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 100dvw;
   min-height: 100dvh;
