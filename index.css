@@ -161,7 +161,8 @@ nav li a {
   }
 
   to {
-    transform: translateX(-167%);
+    transform: translateX(calc(-168%));
+    /* transform: translateX(-167%); */
   }
 }
 
