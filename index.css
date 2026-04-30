@@ -151,9 +151,10 @@ nav li a {
 
 .wrapper {
   display: flex;
-
   animation: animate 32s linear infinite;
 }
+
+
 
 @keyframes animate {
   from {
@@ -175,6 +176,36 @@ nav li a {
   text-align: center;
 }
 
+.projectsContainer {
+  width: 90%;
+  min-height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.projectCard {
+  background-color: #778da9;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.projectCard h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
 #contact {
   margin-top: 50px;
   width: 85%;
@@ -184,6 +215,7 @@ nav li a {
 #contact h3 {
   font-size: 50px;
   text-align: center;
+  margin-top: 50px;
 }
 
 #contact p {
