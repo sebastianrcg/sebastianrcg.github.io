@@ -207,13 +207,20 @@ nav li a:hover{
 
 
 .projectCard {
-  background-color:antiquewhite ;
+  background-color:#bfc0c0;
+  /* background-color:#bfc0c0; THIS ONE */
+  /* background-color:#d2b48c; */
+  /* background-color:#a3b18a; */
+  /* background-color:#f5deb3 ; MAYBE */
+  /* background-color:antiquewhite ; */
   /* background-color: #778da9; */
   border-radius: 10px;
   width: 350px;
   height: 460px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);  between these 2*/
 }
 
 .cardImg {
