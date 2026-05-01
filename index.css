@@ -211,7 +211,7 @@ nav li a:hover{
   /* background-color: #778da9; */
   border-radius: 10px;
   width: 350px;
-  height: 450px;
+  height: 460px;
   display: flex;
   flex-direction: column;
 }
@@ -232,6 +232,7 @@ nav li a:hover{
 .projectCard p {
   margin-top: 5px;
   padding: 15px;
+  margin-bottom: 10px;
 }
 
 #contact {
