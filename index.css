@@ -404,7 +404,7 @@ section {
     }
 
     to {
-      transform: translateX(-258%);
+      transform: translateX(calc(-330%));
     }
   }
 
