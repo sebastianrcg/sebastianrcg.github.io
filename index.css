@@ -207,12 +207,12 @@ nav li a:hover{
 
 
 .projectCard {
-  background-color:#bfc0c0;
+  /* background-color:#bfc0c0; */
   /* background-color:#bfc0c0; THIS ONE */
   /* background-color:#d2b48c; */
   /* background-color:#a3b18a; */
   /* background-color:#f5deb3 ; MAYBE */
-  /* background-color:antiquewhite ; */
+  background-color:antiquewhite ;
   /* background-color: #778da9; */
   border-radius: 10px;
   width: 350px;
