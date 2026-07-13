@@ -38,8 +38,8 @@
         turning complex problems into elegant solutions.</p>
       <div id="links">
 
-        <a href="https://www.linkedin.com/in/sebastian-rcruz92/" target="_blank" rel="noopener"><img src="./images/linkedin.png"
-            alt="LinkedIn logo, click to visit Sebastian Cruz's LinkedIn profile"></a>
+        <a href="https://www.linkedin.com/in/sebastian-rcruz92/" target="_blank" rel="noopener"><img
+            src="./images/linkedin.png" alt="LinkedIn logo, click to visit Sebastian Cruz's LinkedIn profile"></a>
         <a href="./files/Sebastian Cruz CV.pdf" id="resume" download="Sebastian_Cruz_Resume.pdf">Download Resume</a>
 
       </div>
@@ -84,28 +84,48 @@
     <h3>Projects</h3>
     <div class="projectsContainer">
 
-      <a href="https://weatherappsrcg.netlify.app/" target="_blank" rel="noopener">
-      <div class="projectCard">
-        <img class="cardImg" src="./images/projects/weatherapp-update.png" alt="Weather App Image">
-        <h4>Weather App</h4>
-        <p>Weather application using React and World Weather API. The application provides the current weather, and a 7 day forecast by default consisting of low, high, and average daily temperature. The user can change the daily forecast between 1 and 14 days, and toggle display temperatures between ℃ and ℉.</p>
-      </div>
+      <a href="https://contact-app-wiwz.onrender.com/" target="_blank" rel="noopener">
+        <div class="projectCard">
+          <img class="cardImg" src="./images/projects/contactApp.png" alt="Contacts App Image">
+          <h4>Contacts App</h4>
+          <p>Phone book contacts application using a Node.js express server with a cloud based MongoDB database. The app
+            uses React for the front end, with a modern and simple design following Apple's Ios contacts app design and
+            style. Users can add new contacts, edit, delete, and view contact information.</p>
+        </div>
+      </a>
+
+      <a href="https://websocket-chatroom-render.onrender.com/" target="_blank" rel="noopener">
+        <div class="projectCard">
+          <img class="cardImg" src="./images/projects/chatroom.png" alt="Chatroom App Image">
+          <h4>Chatroom App</h4>
+          <p>Chatroom application using WebSockets. Prompts the user for a username on initial page load. Notifies all
+            the users in the room when a new user joins with the username and current time, and when users leave the
+            chatroom. Fully functional, you can test the application by opening the link on multiple browsers or tabs,
+            and devices.</p>
+        </div>
       </a>
 
       <a href="https://episoderating.netlify.app/" target="_blank" rel="noopener">
-      <div class="projectCard">
-        <img class="cardImg" src="./images/projects/ratingCommentApp.png" alt="Rating & Comment App Image" style="height: 200px;">
-        <h4>Rating & Comment App</h4>
-        <p>Ratings and comment app using React, the Rick and Morty API and Chakra UI. Users can visualize a list of Rick and Morty episodes, comment and rate episodes on a 5 star base. The app saves user comments, ratings, and provides the average rating per episode. The app uses Local Storage for persistent data.</p>
-      </div>
+        <div class="projectCard">
+          <img class="cardImg" src="./images/projects/ratingCommentApp.png" alt="Rating & Comment App Image"
+            style="height: 200px;">
+          <h4>Rating & Comment App</h4>
+          <p>Ratings and comment app using React, the Rick and Morty API and Chakra UI. Users can visualize a list of
+            Rick and Morty episodes, comment and rate episodes on a 5 star base. The app saves user comments, ratings,
+            and provides the average rating per episode. The app uses Local Storage for persistent data.</p>
+        </div>
       </a>
-      <a href="https://websocket-chatroom-render.onrender.com/" target="_blank" rel="noopener">
-      <div class="projectCard">
-        <img class="cardImg" src="./images/projects/chatroom.png" alt="Chatroom App Image">
-        <h4>Chatroom App</h4>
-        <p>Chatroom application using WebSockets. Prompts the user for a username on initial page load. Notifies all the users in the room when a new user joins with the username and current time, and when users leave the chatroom. Fully functional, you can test the application by opening the link on multiple browsers or tabs, and devices.</p>
-      </div>
+
+      <a href="https://weatherappsrcg.netlify.app/" target="_blank" rel="noopener">
+        <div class="projectCard">
+          <img class="cardImg" src="./images/projects/weatherapp-update.png" alt="Weather App Image">
+          <h4>Weather App</h4>
+          <p>Weather application using React and World Weather API. The application provides the current weather, and a
+            7 day forecast by default consisting of low, high, and average daily temperature. The user can change the
+            daily forecast between 1 and 14 days, and toggle display temperatures between ℃ and ℉.</p>
+        </div>
       </a>
+
 
     </div>
   </section>
@@ -114,47 +134,47 @@
 
   <section id="contact">
     <h3> Contact</h3>
-      <p>Please enter your contact details bellow and I will get back to you as soon as possible.</p>
+    <p>Please enter your contact details bellow and I will get back to you as soon as possible.</p>
 
-      <!-- "https://formspree.io/f/xvgjzoaw" other site action url -->
+    <!-- "https://formspree.io/f/xvgjzoaw" other site action url -->
 
-      <!-- "https://formsubmit.co/sebalox92@gmail.com"alternate action post -->
+    <!-- "https://formsubmit.co/sebalox92@gmail.com"alternate action post -->
 
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="3603fcca-8825-476c-a6a9-c992e247fdba">
-        <!-- <input type="hidden" name="_next" value="https://www.sebastianrcg.com">  -->
-        <!-- Site redirect after submitting form -->
-        <div>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="3603fcca-8825-476c-a6a9-c992e247fdba">
+      <!-- <input type="hidden" name="_next" value="https://www.sebastianrcg.com">  -->
+      <!-- Site redirect after submitting form -->
+      <div>
 
-          <label for="name">Name: </label><br>
-          <input type="text" id="name" name="name" required placeholder="Full Name"><br>
-        </div>
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name="name" required placeholder="Full Name"><br>
+      </div>
 
-        <div>
+      <div>
 
-          <label for="email"> Contact Email: </label><br>
-          <input type="email" id="email" name="email" required placeholder="Email">
-          <br>
-        </div>
+        <label for="email"> Contact Email: </label><br>
+        <input type="email" id="email" name="email" required placeholder="Email">
+        <br>
+      </div>
 
-        <div>
+      <div>
 
-          <label for="phone"> Phone Number: </label><br>
-          <input type="tel" id="phone" name="phone" placeholder="(000) - 000 - 0000" required>
-          <br>
-        </div>
+        <label for="phone"> Phone Number: </label><br>
+        <input type="tel" id="phone" name="phone" placeholder="(000) - 000 - 0000" required>
+        <br>
+      </div>
 
-        <div>
+      <div>
 
-          <label for="dateInput"> Contact Date: </label><br>
-          <input type="date" id="dateInput" name="date"> <br>
-        </div>
-        <div>
+        <label for="dateInput"> Contact Date: </label><br>
+        <input type="date" id="dateInput" name="date"> <br>
+      </div>
+      <div>
 
-          <button type="submit">Submit</button>
-          <button type="reset">Reset Form</button>
-        </div>
-      </form>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset Form</button>
+      </div>
+    </form>
   </section>
 
   <footer class="footer"> All rights reserved © 2026 Sebastian Cruz</footer>
