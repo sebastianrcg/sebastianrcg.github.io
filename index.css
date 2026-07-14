@@ -141,7 +141,8 @@ nav li a:hover{
   /* background-color: #778da9; */
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: antiquewhite;
+  background-color: #fcecec;
+  /* background-color: antiquewhite; */
   border: 3px solid #778da9;
   border-radius: 20px;
 
@@ -210,12 +211,13 @@ nav li a:hover{
 
 .projectCard {
   /* background-color:#bfc0c0; */
-  /* background-color:#bfc0c0; THIS ONE */
+  /* background-color:#bfc0c0; maybe */
   /* background-color:#d2b48c; */
   /* background-color:#a3b18a; */
-  /* background-color:#f5deb3 ; MAYBE */
-  background-color:antiquewhite ;
+  /* background-color:#f5deb3 ;  */
+  /* background-color:antiquewhite ; */
   /* background-color: #778da9; */
+  background-color: #fcecec;
   border-radius: 10px;
   width: 350px;
   height: 460px;
